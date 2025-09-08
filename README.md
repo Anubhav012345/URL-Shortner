@@ -1,70 +1,77 @@
-🔗 URL Shortener (MERN + Vite)
+# 🔗 URL Shortener (MERN + Vite)
 
-A full-stack URL Shortener built with the MERN stack (MongoDB, Express.js, React, Node.js) and Vite for a fast frontend development experience.
-This app allows users to shorten long URLs, track clicks, and manage their links with authentication support.
+A full-stack **URL Shortener** application built using the **MERN stack** (MongoDB, Express.js, React, Node.js) with **Vite** for the frontend.  
+It provides **user authentication** and allows users to shorten URLs, track how many times they’ve been clicked, and easily copy/paste them.
 
-✨ Key Features
+---
 
-🔐 Authentication – Secure user login & signup (frontend + backend).
+## ✨ Features
+- 🔐 **User Authentication** – Secure login & signup at both frontend and backend.
+- 🔗 **URL Shortening** – Generate short URLs for long links.
+- 📊 **Analytics** – Track the number of shortened URLs and the total clicks on each.
+- 📋 **Copy & Paste** – One-click copy of shortened URLs.
+- ⚡ **Vite + React** – Fast and optimized frontend setup.
+- 🎨 **TailwindCSS** – Clean and modern UI.
 
-🔗 Short Links – Generate unique short URLs for long links.
+---
 
-📊 Analytics – Monitor total URLs created and the number of clicks each receives.
-
-📋 Quick Copy – One-click copy functionality for generated short links.
-
-⚡ Fast Frontend – Powered by Vite + React.
-
-🎨 Modern UI – Styled with TailwindCSS for a clean interface.
-
-📂 Project Structure
+## 📂 Project Structure
+```
 URL-Shortener/
 │
-├── BACKEND/              # Express + MongoDB backend
+├── BACKEND/              # Backend server (Node.js + Express + MongoDB)
 │   ├── node_modules/
-│   ├── src/              # Backend logic
-│   └── ...               # Config & environment files
+│   ├── src/              # All backend code
+│   └── ...               # Other backend configs
 │
-├── FRONTEND/             # React + Vite frontend
+├── FRONTEND/             # Frontend (React + Vite)
 │   ├── node_modules/
-│   ├── src/              # Components, pages, hooks, etc.
+│   ├── src/              # All frontend code (components, pages, etc.)
 │   ├── index.html
 │   ├── vite.config.js
 │   └── package.json
 │
-└── README.md             # Documentation
+└── README.md             # Project documentation
+```
 
-🚀 Getting Started
-1️⃣ Clone Repository
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repository
+```bash
 git clone https://github.com/your-username/url-shortener.git
 cd url-shortener
+```
 
-2️⃣ Setup Backend
+### 2️⃣ Setup Backend
+```bash
 cd BACKEND
 npm install
-npm nodemon
+npx nodemon
+```
+Make sure to configure your **MongoDB connection string** and **JWT secret** in a `.env` file.
 
-
-👉 Create a .env file and configure your MongoDB URI and JWT secret.
-
-3️⃣ Setup Frontend
+### 3️⃣ Setup Frontend
+```bash
 cd FRONTEND
 npm install
 npm run dev
+```
 
-⚙️ Tech Stack
+---
 
-Frontend – React, Vite, Redux Toolkit, React Query, TailwindCSS
+## ⚙️ Tech Stack
+- **Frontend:** React, Vite, Redux Toolkit, React Query, TailwindCSS
+- **Backend:** Node.js, Express.js, MongoDB
+- **Authentication:** JWT
 
-Backend – Node.js, Express.js, MongoDB
+---
 
-Authentication – JSON Web Tokens (JWT)
+## 🤝 Contributing
+Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
 
-🤝 Contribution
+---
 
-Contributions are welcome!
-If you’d like to add features or fix bugs, please open an issue first to discuss your ideas before submitting a pull request.
-
-📜 License
-
-Licensed under the MIT License – feel free to use and modify.
+## 📜 License
+This project is licensed under the MIT License.
