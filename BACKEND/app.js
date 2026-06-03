@@ -1,8 +1,14 @@
+<<<<<<< HEAD
 import dotenv from "dotenv"
 dotenv.config()
 
 import express from "express";
 import {nanoid} from "nanoid"
+=======
+import express from "express";
+import {nanoid} from "nanoid"
+import dotenv from "dotenv"
+>>>>>>> 97ac6f6ebdc9da20572f9b1069352d334d9411b3
 import connectDB from "./src/config/monogo.config.js"
 import short_url from "./src/routes/short_url.route.js"
 import user_routes from "./src/routes/user.routes.js"
@@ -13,6 +19,11 @@ import cors from "cors"
 import { attachUser } from "./src/utils/attachUser.js";
 import cookieParser from "cookie-parser"
 
+<<<<<<< HEAD
+=======
+dotenv.config("./.env")
+
+>>>>>>> 97ac6f6ebdc9da20572f9b1069352d334d9411b3
 const app = express();
 
 app.use(cors({
