@@ -22,7 +22,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://url-shortner-frontend.onrender.com",
+      "https://url-shortner-frontend-jw9l.onrender.com",
     ],
     credentials: true,
   })
