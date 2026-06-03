@@ -40,8 +40,8 @@ URL-Shortener/
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/your-username/url-shortener.git
-cd url-shortener
+git clone https://github.com/your-username/URL-Shortner.git
+cd URL-Shortner
 ```
 
 ### 2️⃣ Setup Backend
